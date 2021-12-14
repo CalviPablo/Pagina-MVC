@@ -1,0 +1,48 @@
+.mostrartabla {
+  border: solid 1px black;
+  border-top: solid 1px lightgray;
+  border-left: solid 1px lightgray;
+  background-color: #efefef;
+  box-shadow: 6px 3px #a6a9a9;
+  text-align: left;
+}
+
+.filtros-m {
+  text-align: -webkit-left;
+}
+
+.filtro-m {
+  display: flex;
+}
+
+.btn-filtro {
+  align-self: flex-end;
+}
+
+.form-group {
+  text-align: center;
+}
+
+.boton-submit {
+  text-align: center;
+}
+
+.container {
+  text-align: -webkit-center;
+}
+
+.form-input {
+  width: -webkit-fill-available;
+}
+
+.form-select {
+  width: auto;
+}
+
+.btn-filtro {
+  margin-top: 5px;
+}
+
+.form-filtro {
+  margin-bottom: 5px;
+}

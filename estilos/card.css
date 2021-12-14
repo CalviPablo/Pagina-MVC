@@ -1,0 +1,18 @@
+body {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.link-volver {
+  text-align: center;
+}
+
+.card {
+  width: 300px;
+  background: #fff;
+  border-radius: 3px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 5px 5px 20px 1px #0007;
+}

@@ -1,0 +1,72 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th:first-child {
+  padding: 25px 30px;
+  border-top-left-radius: 10px;
+  padding-left: 10px;
+  background-color: #6c7a89;
+}
+
+th {
+  background-color: #6c7a89 !important;
+  padding: 25px 30px;
+  text-align: center;
+}
+
+th:last-child {
+  background-color: #6c7a89;
+  padding: 25px 30px;
+  border-top-right-radius: 10px;
+  padding-right: 10px;
+}
+
+td:first-child {
+  border-right: none;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 25px 30px;
+  padding-left: 10px;
+}
+
+td {
+  padding: 25px 30px;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+}
+
+td:last-child {
+  /* padding: 25px 30px; */
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-right: 10px;
+}
+
+tr {
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+  transition: 100ms cubic-bezier(0.5, 0, 0.1, 1);
+}
+
+tr:hover {
+  background-color: rgba(108, 122, 137, 0.2);
+  cursor: default;
+  transition: 100ms cubic-bezier(0.5, 0, 0.1, 1);
+}
+.boton-agregar {
+  padding-bottom: 3px;
+}
+
+.dataTables_length {
+  text-align: -webkit-auto;
+}
+
+#tablarutina {
+  width: 75%;
+}
